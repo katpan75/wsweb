@@ -1,13 +1,13 @@
-.container{
-    margin:auto;
-    width:auto;
-    height: auto;
-    align-content: center;
-    border-style:solid;
-    border-color:black;
-    border-radius:30px;
-    border-width:  10px;
+body{
+    background-color: thistle;
+    margin:0px;
 }
-.answer:hover{
-    color:mediumblue;
+
+.container{
+    position:absolute;
+    top:20vh;
+    right:50vw;
+}
+.question{
+    font-size:3vmax;
 }
