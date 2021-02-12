@@ -1,0 +1,16 @@
+body{
+    background-color: mediumpurple;
+}
+.container{
+    background-color:springgreen;
+    width:50vw;
+    height:60vh;
+    border-radius:10vmax;
+    padding:5vmax;
+}
+p{
+    font-size:5vmax;
+}
+#button:hover{
+    color:turquoise;
+}
