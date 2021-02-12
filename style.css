@@ -1,0 +1,12 @@
+.change{
+    background-color: tomato;
+    color:teal;
+    width:fit-content;
+
+}
+.change:hover{
+    background-color:white;
+    border-style:solid;
+    border-color:black;
+    color:black;
+}
