@@ -1,0 +1,20 @@
+body{
+    background-color:goldenrod;
+
+}
+
+p{
+    text-align:center;
+    font-size:large;
+    color:maroon;
+}
+
+.pickme{
+    background-color: lightcoral;
+    width:auto;
+    height: auto;
+    border-radius: 20px;
+}
+.pickme:hover{
+    opacity:50%;
+}

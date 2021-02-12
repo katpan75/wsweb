@@ -2,9 +2,6 @@ body{
     background-color: pink;
 }
 
-p{
-}
-
 input{
     background-color: moccasin;
 }
@@ -14,17 +11,12 @@ div {
     background-color:seagreen;
     color:thistle;
     height:auto;
-    width:50vh;
+    width:50vw;
     margin:auto;
     margin-top: 100px;
 }
-.answeryes{
-    color:seagreen;
-    display:none;
-    
-}
 
-.answerno{
+.answer{
+    background-color:transparent;
     display:none;
-    color:red;
 }

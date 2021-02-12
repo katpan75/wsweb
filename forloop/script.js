@@ -1,18 +1,14 @@
-let x = ["rose","Daisy","violet","Iris"];
+$(function(){
 
-let guess = document.getElementById("#guess");
-let result = document.getElementById("yourguess");
-
-guess.addEventListener('input', function () { result.textContent = this.value;});
-
-
-function myfunction(){
-    for(i=0; i<x.length; i++){
-      if( N == x[i]){
-            yes.setAttribute("style","display:block;");
-
-     } else{
-            no.setAttribute("style","display:block;");
-       }
+let x = ["Rosie","Daisy","Violet","Iris"];
+$(".guess").on("input", function(){
+  for(i=0; i<x.length; i++){
+    if(x[i]===$(".guess").val()){
+      $(".answer.yes").css("display","block");
     }
-}
+  }
+});
+
+
+
+});

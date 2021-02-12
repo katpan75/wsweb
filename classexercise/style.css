@@ -1,0 +1,21 @@
+body {
+    background-color:darkolivegreen;
+  }
+
+div{
+
+    background-color: darksalmon;
+    width:auto;
+    height:auto;
+    border-style:dotted;
+    border-color:darkslategray;
+}
+.cabbage:hover, .carrot:hover, .eggs:hover, .onion:hover{
+    border-color:deeppink;
+    color:deeppink;
+}
+  .result{
+      height:auto;
+      display:none;
+  }
+  
